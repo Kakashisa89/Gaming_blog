@@ -1,0 +1,20 @@
+.forms{
+    background-image: url(/public/media/img/l-attacsfondo-console.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+/* Codice sfondo sezione index console */
+.consol{
+    background-image: url(/public/media/img/sfondoConsole.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.consol1{
+    backdrop-filter: contrast(180%);
+}
+
+
+

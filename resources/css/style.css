@@ -1,0 +1,37 @@
+@import './login.css';
+@import './register.css';
+@import './videoHome.css';
+@import './formConsole.css';
+
+
+/* Back ground home */
+  .b{
+
+    background-image: url(../../public/media/img/sfondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+  }
+  /* sezione card home */
+  .crd{
+
+    box-shadow: rgba(6, 6, 6, 0.956) 0px 54px 55px, rgba(0, 0, 0, 0.995) 0px -12px 30px, rgb(0, 0, 0) 0px 4px 6px, rgb(0, 0, 0) 0px 12px 13px, rgb(0, 0, 0) 0px -3px 5px;
+  }
+  .crd:hover{
+    transform: rotate(360deg);
+    transition-duration: 2.1s;
+    box-shadow: rgba(255, 251, 251, 0.956) 0px 54px 55px, rgba(255, 255, 255, 0.995) 0px -12px 30px, rgb(255, 255, 255) 0px 4px 6px, rgb(255, 255, 255) 0px 12px 13px, rgb(255, 255, 255) 0px -3px 5px;
+
+  }
+  .crd:active{
+    transition-duration: 1s;
+
+    box-shadow: rgba(6, 6, 6, 0.956) inset 0px 54px 55px, rgba(0, 0, 0, 0.995) inset 0px -12px 30px, rgb(0, 0, 0) inset 0px 4px 6px, rgb(0, 0, 0) inset 0px 12px 13px, rgb(0, 0, 0) inset 0px -3px 5px;
+
+  }
+
+  .filter{
+    backdrop-filter: contrast(180%);
+  }
